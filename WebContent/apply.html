@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Register form</title>
+    </head>
+    <body>
+   <form method="post" action="apply">
+   <table>
+        <tr> 
+        <td>
+        Student Name:
+        </td>
+        <td > 
+        <input type="text" name="name" style="width:300px" />
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        Mobile Number:
+        </td>
+        <td>
+        <input type="text" name="mobilenumber" style="width:250px" />
+        </td>
+        </tr>
+        
+        
+        <input type="text" name="email" value=""/>
+     
+        <tr>
+        <td>
+        Branch:
+        </td>
+        <td>
+        <input type="text" name="branch" style="width:100px"/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        ADDRESS:
+        </td>
+        <td>
+        <input type="text" name="address" style="width:300px"/>
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+        AADHAR CARD NUMBER:
+        </td>
+        <td>
+        <input type="text" name="adhar" style="width:300px" />
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
+            Choose  your category:
+        </td>
+        <td>
+<select id="cars" name="category" style="width:300px">
+
+  <option value="UG">UG</option>
+  <option value="PG">PG</option>
+</select>
+        </tr>
+        <tr>
+    <td>
+    CGPA
+    </td>
+    <td>
+    <input type="text" name="CGPA" style="width:300px"/>
+    </td>
+    </tr>
+    
+    <tr>
+    <td>
+    Certificate Link:
+    </td>
+    <td>
+    <input type="text" name="Link" style="width:300px"/>
+    </td>
+    </tr>
+        
+        <tr>
+        <td>
+        <input type="submit" value="REGISTER" style="width:300px" />
+        </td>
+        </tr>
+        
+        </table>
+        </form>
+  <style>
+        html {
+  background-color: #56baed;
+}  
+body {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+input[type=text], select, textarea {
+  width: 10%; /* Full width */
+  padding: 10px; 
+  border: 2px solid black;
+  border-radius: 10px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+        </style>
+    </body>
+</html>
